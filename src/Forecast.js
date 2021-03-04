@@ -1,7 +1,8 @@
 import React from "react";
 
 export default function Forecast() {
-  function alertForecast() {
+  function alertForecast(event) {
+    event.preventDefault();
     alert("Forecast feature is not ready yet");
   }
   return (
